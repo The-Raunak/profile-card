@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg1{
+    position: relative;
+    right: 55%;
+    bottom: 32%;
+}
+.svg2{
+    position: fixed;
+    left: 54%;
+    top: 53%;
+}
+.card{
+    height: 55vh;
+    width: 25vw;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 15px;
+}
+.svg3{
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  transform: scaleX(1.1);
+  top: 22.5%;
+  left: 38.6%;
+  border-radius: 15px 15px 0px 0px ;
+}
+img{
+    position: absolute;
+    height: 6.5rem;
+    top: 34%;
+    left: 46.3%;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.detail{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 18%;
+}
+.name{
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.age{
+    font-size: 18px;
+    padding-top: 2px;
+    color: hsl(0, 0%, 59%);
+}
+.f{
+    position: relative;
+    top: 20%;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+hr{
+    width: 24rem;
+    position: relative;
+    top: 25%;
+    opacity: 0.1;
+}
+.foot{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 32%;
+    /* font-size: 20px; */
+}
+.comp{
+    position: relative;
+    right: 40%;
+}
+.temp{
+    position: relative;
+    right: 4%;
+}
+.que{
+    position: relative;
+    left: 35%;
+}
+.p1{
+    color: hsl(0, 0%, 59%);
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.p2{
+    color: hsl(0, 0%, 59%);
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-left: 8px;
+}
+.p3{
+    color: hsl(0, 0%, 59%);
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.f1{
+    padding-left: 15px;
+    font-size: 20px;
+}
+.f2{
+    font-size: 20px;
+}
+.f3{
+    font-size: 20px;
+}
